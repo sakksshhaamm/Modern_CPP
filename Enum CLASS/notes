@@ -1,0 +1,45 @@
+A class Called Doctor
+    - doctor ID of type string
+    -doctorName of type string
+    -Doctor Speciality of type "enum class Speciality"
+
+
+    -Disabled default Constructor
+    -A copy Constructor that is also disabled
+    -A parameterized constructor that take id and name
+    -A parameterized constructor that take id, Name & speciality
+
+
+    - A destructor method
+
+
+notes:
+    a) Create at Least 3 objects of this class and store them in an array inside Main.cpp file
+
+    b) Use .h and .cpp file formats properly
+
+    c) use heap allocation wherever possible     
+
+
+
+
+
+    create a class student that has the folowing attributes
+
+
+    - studentBranch of type enum class Branch, Literals are {SCIENCE,COMMERCE,ARTS}
+    -studentErpNumber of type string
+    -studentPracticalMarks of type int
+    -studentTheoryMarks of type int
+    -A defaulted default Constructor
+    -A deleted copy constructor
+    - A parameterized constructor for setting all data attributes
+    -A destructor
+    -All getters and setters
+    -Friend function for ostream overload
+
+Note:
+    use .h and .cpp format
+     create 5 objects of student type on the heap.Store them in an array(use pointer if necessary)
+     create a function in main.cpp file called as "FindtotalMarks",It takes a lvalue reference to student and return the sum of studentTheoryMarks and studentPracticalMarks
+     create a function in main.cpp file called "checkStudent which take one string as an input.It returns whether a student with studentErpNumber matching the passed string exist in the array or not    

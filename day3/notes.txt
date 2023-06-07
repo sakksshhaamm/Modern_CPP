@@ -1,0 +1,18 @@
+Category 1: short- running(module specific topic)
+
+example - ENUM  CLASS
+          default
+          delete
+          auto
+          explicit
+          threading (concurrency)
+          smart pointers
+          asynchronous coding
+          std::chrono
+          std::optional, std::variant, std::any, constexpr,if & switch initializations
+
+Category 2 : long running (Connected topics)
+
+EXAMPLE - LAMBDA FUNCTION
+          RVALUES,RVALUE REFERENCE,MOVE SEMANTICS
+          template programming(generic or meta programming)

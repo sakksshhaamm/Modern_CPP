@@ -1,0 +1,12 @@
+STEP 1: the code gets compiled (this produces machine level code in a executable binary)
+STEP 2: 
+
+
+
+
+
+
+
+notes -for multiple threading concurency should be 
+
+contest switching

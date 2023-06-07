@@ -1,0 +1,23 @@
+create a class Vehicle
+ it has:
+a. a meber Vehiclename string
+b. a memeber VehicleType enum class VEHICLE_TYPE which has following: SUV,SEDAN,ELECTRIC_SUV,ICE_TWO_WHEELER,ELECTRIC_TWO_WHEELER
+c. AcarPrice attribute of type float
+d. A parameterized constructor to accept all arguments
+e. a deleted copy and default constructor
+f. gettters and setters for all attributes
+g. a pure virtual function called calledRtotax
+
+create a class car with following attributes
+    - a data memeber called "carBrand" of type string
+    - a parameterized constructor for applicable data memeber
+    - a member function called calledRtotax that calculate tax as per following rules
+    a. if car type is ELECETRIC_SUV,tax is 0
+    b. if car type is SUV or SEDAN , tax is 10% of car price
+
+    - getters and setters functions for all members 
+    - overloaded left shift operator
+    - deleted copy and default constryuctor
+
+
+create a file called 

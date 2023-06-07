@@ -1,0 +1,32 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cppbuild",
+			"label": "C/C++: g++ build active file",
+			"command": "g++",
+			"args": [
+				"-std=c++17",
+				"-fdiagnostics-color=always",
+				"Main.cpp",
+				"Vehicle.cpp",
+				"Car.cpp",
+				"Bike.cpp",
+				"-g",
+				"-o",
+				"app"
+			],
+			"options": {
+				"cwd": "/home/kpit/Desktop/MODERNCPP /day12/Sample1"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"detail": "compiler: /usr/bin/g++"
+		}
+	]
+}

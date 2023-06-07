@@ -1,0 +1,29 @@
+solve the following in .h and .cpp format
+
+Create a class VehicleData with the following attributes
+
+  -alphanumeric vehicleID
+  -string for VehicleModel
+  different.h and display for enum
+  -enumeration literals of SEDAN, SUV & HATCHBACK for the vehicle type
+  -integer value for fuelTankCapacity
+  -decimal number for mileage (expected as per company)
+
+ 
+
+  -required constructors
+  -ability to gain read write access to data members
+  -ability to display all data members
+  -ability to add 2 VehicleData objects together to return combined fuelTankCapacity
+
+
+  Create 3 lambda functions to do the following 
+
+   -Calculate AverageFuelCapacity from all VehicleData objects passed in a container and return the answer
+   -find mileage of vehicle with a given vehicle ID and return the answer
+   -
+
+Store both function into a list of std::function type
+
+Create a function operation that takes VehicleData objects in a container  and 
+a container containig all the function objects.

@@ -1,0 +1,20 @@
+Keywords Discussed on day 4
+
+nullptr
+
+override
+
+finall: class cannot be extended (cannot inherit from a final class)
+
+delegated constructors: transfer parameters of one constructor to another in the same class
+
+
+trailing returns : you can now write returns after function name 
+
+using: replacement for typedef from C language
+
+
+
+#########################################
+
+A delimiter is special symbol that indicate the limit of something

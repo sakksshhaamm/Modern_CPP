@@ -1,0 +1,11 @@
+default delete auto :employeeId(id),employeeName(name) {}
+
+
+
+
+
+
+
+
+
+

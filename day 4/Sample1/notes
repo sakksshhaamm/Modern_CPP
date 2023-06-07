@@ -1,0 +1,44 @@
+Create a class called "vehicle"
+       it has the following attributes
+        a)a member vehicleName of type string
+        b)a member vehicleType of type enum class"VEHICLE_TYPE" which can have the following
+        literals : {SUV,SEDAN,ELECTRIC_SUV,ICE_TWO_WHEELER,ELECTRIC_TWO_WHEELER}
+        c) a vehiclePrice attribute of type float
+        d) a parameterized constructor to accept all arguments
+        e) a deleted copy and default constructor
+        f) a getter and setters for all attributes
+        g) a pure virtual function called calledRtoTax which returns float.
+
+Create a class car with the following attributes
+        - a data member called "carBrand" of type string
+        - a parameterized constructor for application data members
+        - a member function calledRtoTax that calculates Tax as per following rules
+          - if car type is ELECTRIC_SUV, tax is 0
+          - if car typr is SUV or SEDAN, tax is 10% of car price
+
+        - getter and setters functions for all data members
+        - overloaded left shift operator
+        - deleted copy and default constructor          
+
+Create a file called functionalities.cpp with the following functions
+       - a function called averageVehiclePrice that takes a reference of standard list of vehicle objects
+         as a parameter and returns the average price for all vehicles stored in the list
+
+       - a function called findCountOfGivenVehicleType that takes a reference of standard list of vehicle objects
+         and a enum Vehicle_Type.
+
+
+
+         You are allowed where u write the arguments without variable..........
+
+
+
+         Keywords discussed on day 4
+
+         - nullptr 
+         - override
+         - final : class cannot be extended (cannot inherit from final class)
+         - delegated constructors : transfer parameters of one constructor to another in the same class
+         - trailing return : you can now write returns after function name
+         - using : replacement for typedef from c language
+         

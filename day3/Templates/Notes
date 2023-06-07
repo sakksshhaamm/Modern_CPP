@@ -1,0 +1,19 @@
+Create an enum class "TicketCategory" with following literals {GENERAL,AC,SLEEPER}
+Create an enum class "TicketStatus" with following literals {WAITING,CONFIRMED,VIP_RESERVED}
+
+
+Create a class ticket with following attributes
+
+- a class data member "ticketType" which could take a value of either type TicketCategory or TicketyStatus
+  a class data member "ticketPrice" which could take a value of either int or float
+- a class data member called ticketStartlocation which is of type String
+- a class data member called ticketEndlocation which is of type String
+
+- a deleted default constructor
+- a default copy constructor
+- a parameterized constructor to accept all 4 data members
+- a parameterized constructor to accept only ticketType ticketStartLocation and ticketEndLocation
+
+-a destructor
+
+- an overloaded left shift operator

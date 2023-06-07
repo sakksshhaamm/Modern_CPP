@@ -1,0 +1,69 @@
+what is the difference between
+
+1- Inheritance (a line with a open triangle notation)
+###- all the 3 below come under categories of link between classes
+ formed on the basis of association###
+
+ 2- composition: Here,one clas (called the composite class)
+    contains an objects of another class(called component class)
+
+here,composite class OWNS the component class and component class cannot exist independently
+
+
+for e.g. BankAccount and DebitCard
+
+BankAccount is composed by using DebitCard instance
+BankAccount owns an attached DebitCard
+A DebitCard cannot exist without its owner BankAccount?
+
+
+3- Aggregation:- Here, one class contains an instance of another class(similar to composition)
+does not own the instance of the component
+
+ex- one- two classes x and y object own the y objects.y cannot exist without x (composition)
+
+2nd - Two classes x and y.X object is made by using y objects (X HAS a data member refering to y)
+y is not owned by x,y and x can exit independently(Aggregation)
+
+3rd- Two classes x and y
+
+
+
+4- Association:- 
+in Association.,one class A is linked to some other class B.
+A might use features or functionalities of class B
+- One instance of A may be connected to one or more instance of B
+
+- A does not own b or vice versa
+
+
+
+eg:--
+
+std:list<Car> data;
+data is standard list of categories
+
+std::list<person>data;
+data is standard list of Persons
+
+MAke a function called "FindBook" that can print all books
+written by a certain author(passed as argument)from all books available
+
+void FindBook(const std:: string& author){
+std::list<Book> books= GetAllBooks();
+
+std::list<Book> filteredBooks;
+for(const auto& book : books){
+    if(book.Author == author){
+        filteredBooks.push_back(book);
+    }
+}
+for(const auto& book: filteredBooks){
+    std::cout<<book.Title<<std::endl;
+}
+}
+
+
+
+
+

@@ -1,0 +1,29 @@
+Create a class Amount with the following attributes
+
+    -accountId that is a alphanumeric
+    -accountBalance that can be decimal
+    -accountType that may be one of these types {SAVING, CURRENT}
+    -accountHolderName of string type
+    -accountLastTransactions that stores data of type  accountLastTransactions
+
+    -an ability to gain read write access
+    -ability to display all members
+    -appropriate constructors
+
+
+Create a class Transaction with the following attributes
+
+    -transactionAmount
+    -transactionReceipentName
+    -tansactionType
+
+Create functonalities.cpp file with the following attributes
+    A function operation that takes a container of accounts and a function wrapper (of type "return float, accepts
+    container of accounts"). It must map the function on to the data container.
+
+Create a lambda to 
+          -Find account Balance of account with highest total transactions amount.
+          -Find Heghest Transaction Amount amongst all accounts in the container
+
+
+          Account.cpp functionalities.cpp main.cpp Transaction.cpp
